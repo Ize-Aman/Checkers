@@ -22,9 +22,9 @@ As a beginner, there were several challenges I faced while working on this proje
 4. Run the executable:  
    ```bash  
    ./checkers  
-   ```
-5. If the above process doesn't work you can use the following command to compile and run the game:
-  `ctrl + f5` or `f5` 
+   ```  
+5. If the above command doesn't work, try running it with the following:
+`ctrl + f5` or just `f5`
 
 ## Lessons Learned  
 - This project taught me the importance of teamwork and perseverance.  
@@ -37,4 +37,4 @@ As a beginner, there were several challenges I faced while working on this proje
 - Special thanks to God for helping me push through the challenges and complete this project.  
 
 ## Future Plans  
-I plan to revisit this project in the future when I have more experience. I’d like to fix the game mechanics to make it fully playable.
+I plan to revisit this project in the future when I have more experience. I’d like to Fix the game mechanics to make it fully playable.
