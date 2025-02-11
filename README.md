@@ -6,6 +6,13 @@ This is my first-ever project in C++, developed using the [Raylib](https://www.r
 - Piece movement (frontend).  
 - Simple textures for the pieces.  
 
+## Screenshots
+- This is the mini menu
+![alt text](<png/Screenshot 2025-02-11 143122.png>)
+
+- This is the game
+![alt text](<png/Screenshot 2025-02-11 143225.png>)
+
 ## Challenges  
 As a beginner, there were several challenges I faced while working on this project:  
 1. **Game Mechanics:** Implementing the rules and logic of Checkers was the hardest part for me.  
