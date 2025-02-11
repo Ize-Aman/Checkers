@@ -669,6 +669,8 @@ void SaveGame(const Game& game, const char* filename) {
     saveFile.write(game.playerOneName.c_str(), playerOneNameSize);
     saveFile.write((char*)&playerTwoNameSize, sizeof(size_t));
     saveFile.write(game.playerTwoName.c_str(), playerTwoNameSize);
+    saveFile.write((char*)&game.P1Score, sizeof(int));
+    saveFile.write((char*)&game.P2Score, sizeof(int));
 
     // Save the board cells
     for (int row = 0; row < 8; ++row) {
@@ -702,6 +704,8 @@ void LoadGame(Game& game, const char* filename) {
     loadFile.read((char*)&playerTwoNameSize, sizeof(size_t));
     game.playerTwoName.resize(playerTwoNameSize);
     loadFile.read(&game.playerTwoName[0], playerTwoNameSize);
+    loadFile.read((char*)&game.P1Score, sizeof(int));
+    loadFile.read((char*)&game.P2Score, sizeof(int));
 
     // Load the board cells
     for (int row = 0; row < 8; ++row) {
