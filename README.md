@@ -8,6 +8,7 @@ This is my first-ever project in C++, developed using the [Raylib](https://www.r
 
 ## Screenshots
 - This is the mini menu
+  
 ![alt text](<png/Screenshot 2025-02-11 143122.png>)
 
 - This is the game
